@@ -12,7 +12,7 @@ import (
 
 func main2() {
 	// Get HuggingFace API token from environment
-	token := "fc728f70f8a14c20b1830e9642f6a1e8.KhfL593adLdYNMFE"
+	token := "fc728f70f8a14c20xxxxxxxxxxxxxx.KhfL593adLdYNMFE"
 
 	// Create model with explicit provider
 	fmt.Println("Creating model with token:", token[:10]+"...")

@@ -13,12 +13,12 @@ import (
 
 func main() {
 	// API token
-	token := "sk-e2b83e9b640a4536a43a2622751c6a7b"
+	token := "xxxxxxxxxxxxx"
 
 	// 1. 创建E2B MCP执行器
 	fmt.Println("🔧 创建E2B MCP执行器...")
 	e2bExecutor, err := executors.NewE2BMCPExecutor(&executors.E2BMCPExecutorOptions{
-		Endpoint:        "https://mcp.higress.ai/mcp-e2bdev/cmhoimriw0056bf01905mhbu3",
+		Endpoint:        "https://mcp.higress.ai/mcp-e2bdev/cmhoimxxxxxxxxxxxxf01905mhbu3",
 		TemplateID:      "code-interpreter-beta", // ✨ E2B模板ID (base=Python环境)
 		SandboxTimeout:  600,                     // 沙盒超时10分钟
 		DefaultTimeout:  60 * time.Second,        // 代码执行超时60秒
