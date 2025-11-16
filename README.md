@@ -1,4 +1,4 @@
-# go-smolagents
+# codeagents
 
 <img src="logo.png" alt="Logo" width="215" align="right">
 
